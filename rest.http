@@ -1,0 +1,26 @@
+### Get all blog posts
+GET https://cms.viktor.ai/blogposts
+
+### Get blog posts with pagination
+GET https://cms.viktor.ai/blogposts?_start=0&_limit=8
+
+### Get blog posts count (supports query params)
+GET https://cms.viktor.ai/blogposts/count?blogpost_categories.id=2
+
+### Get blog posts with sorting
+GET https://cms.viktor.ai/blogposts?_sort=publication_date:DESC
+
+### Get blog post categories
+GET https://cms.viktor.ai/blogpost-categories
+
+### Get blog posts filtered by category ID
+GET https://cms.viktor.ai/blogposts?blogpost_categories.id=2
+
+### Get authors
+GET https://cms.viktor.ai/authors
+
+### Get blog posts filtered by author ID
+GET https://cms.viktor.ai/blogposts?author.id=5
+
+### Get blog posts with search by title
+GET https://cms.viktor.ai/blogposts?title_contains=new%20in%20viktor
