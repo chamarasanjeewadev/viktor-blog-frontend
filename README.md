@@ -33,13 +33,12 @@ A simple and modern blog frontend application built with React, Vite, and the Ta
 3.  Create a `.env` file in the root of the project and add the API base URL:
     ```
    VITE_API_BASE_URL=https://cms.viktor.ai
-    ```
 
 4.  Start the development server:
     ```bash
     pnpm dev
     ```
-    The application will be available at `http://localhost:5173`.
+    The application will be available at `http://localhost:3000/`.
 
 ## Building For Production
 
